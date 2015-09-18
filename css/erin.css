@@ -1,3 +1,9 @@
-main {
+#boxMan {
+	width: 50px;
+	height: 50px;
 	background-color: lightblue;
+
+	position: relative;
+	left: 20px;
+	top: 20px;
 }
