@@ -4,31 +4,31 @@ $(function() {
 	$(document).on('keydown', function(e) {
 		console.log(e.keyCode);
 
-		var boxMan = $('#boxMan');
+		var deathStar = $('#deathStar');
 
 		if(e.keyCode === 39) {
 						
-			var oldPosition = parseInt(boxMan.css('left'));
+			var oldPosition = parseInt(deathStar.css('left'));
 			
-			var newPosition = oldPosition + 10 + 'px';
+			var newPosition = oldPosition + 20 + 'px';
 
-			boxMan.css('left', newPosition);
+			deathStar.css('left', newPosition);
 			
 		} else if (e.keyCode === 40) {
 
-                         var oldPosition = parseInt(boxMan.css('top'));
-                         var newPosition = oldPosition + 10 + 'px';
-                         boxMan.css('top', newPosition);
+                         var oldPosition = parseInt(deathStar.css('top'));
+                         var newPosition = oldPosition + 20 + 'px';
+                         deathStar.css('top', newPosition);
 
 		} else if (e.keyCode === 37) {
-                          var oldPosition = parseInt(boxMan.css('left'));
-                          var newPosition = oldPosition - 10 + 'px';
-                          boxMan.css('left', newPosition);
+                          var oldPosition = parseInt(deathStar.css('left'));
+                          var newPosition = oldPosition - 20 + 'px';
+                          deathStar.css('left', newPosition);
 
 		} else if (e.keyCode === 38) {
-                         var oldPosition = parseInt(boxMan.css('top'));
-                         var newPosition = oldPosition - 10 + 'px';
-                         boxMan.css('top', newPosition);
+                         var oldPosition = parseInt(deathStar.css('top'));
+                         var newPosition = oldPosition - 20 + 'px';
+                         deathStar.css('top', newPosition);
 		}
 
 	});

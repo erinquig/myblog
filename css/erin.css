@@ -1,9 +1,13 @@
-#boxMan {
-	width: 50px;
+#deathStar {
 	height: 50px;
-	background-color: lightblue;
-
+	width: 50px;
 	position: relative;
 	left: 20px;
 	top: 20px;
+}
+
+body {
+	font-family: 'Sarpanch', sans-serif;
+	background-image: url("http://www.motionbackgroundsforfree.com/wp-content/uploads/2012/04/Screen-shot-2012-04-13-at-2.24.50-PM.png");
+	color: #cccccc;
 }
