@@ -16,10 +16,19 @@ $(function() {
 			
 		} else if (e.keyCode === 40) {
 
-		} else if (e.keyCode === 38) {
+                         var oldPosition = parseInt(boxMan.css('top'));
+                         var newPosition = oldPosition + 10 + 'px';
+                         boxMan.css('top', newPosition);
 
 		} else if (e.keyCode === 37) {
+                          var oldPosition = parseInt(boxMan.css('left'));
+                          var newPosition = oldPosition - 10 + 'px';
+                          boxMan.css('left', newPosition);
 
+		} else if (e.keyCode === 38) {
+                         var oldPosition = parseInt(boxMan.css('top'));
+                         var newPosition = oldPosition - 10 + 'px';
+                         boxMan.css('top', newPosition);
 		}
 
 	});
