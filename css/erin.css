@@ -10,5 +10,13 @@
 body {
 	font-family: 'Sarpanch', sans-serif;
 	background-image: url("http://www.motionbackgroundsforfree.com/wp-content/uploads/2012/04/Screen-shot-2012-04-13-at-2.24.50-PM.png");
-	color: #cccccc;
+	color: yellow;
+}
+
+p {
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 40px;
 }
