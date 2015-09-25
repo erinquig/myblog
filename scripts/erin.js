@@ -10,27 +10,32 @@ $(function() {
 						
 			var oldPosition = parseInt(deathStar.css('left'));
 			
-			var newPosition = oldPosition + 20 + 'px';
+			var newPosition = oldPosition + 50 + 'px';
 
 			deathStar.css('left', newPosition);
 			
 		} else if (e.keyCode === 40) {
 
                          var oldPosition = parseInt(deathStar.css('top'));
-                         var newPosition = oldPosition + 20 + 'px';
+                         var newPosition = oldPosition + 50 + 'px';
                          deathStar.css('top', newPosition);
 
 		} else if (e.keyCode === 37) {
                           var oldPosition = parseInt(deathStar.css('left'));
-                          var newPosition = oldPosition - 20 + 'px';
+                          var newPosition = oldPosition - 50 + 'px';
                           deathStar.css('left', newPosition);
 
 		} else if (e.keyCode === 38) {
                          var oldPosition = parseInt(deathStar.css('top'));
-                         var newPosition = oldPosition - 20 + 'px';
+                         var newPosition = oldPosition - 50 + 'px';
                          deathStar.css('top', newPosition);
 		}
 
 	});
+
+	$(function() {
+    	$('#deathStar').draggable();
+
+  });
 
 });
