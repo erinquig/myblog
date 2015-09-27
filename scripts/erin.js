@@ -34,7 +34,7 @@ $(function() {
 	});
 
 	$(function() {
-    	$('#deathStar').draggable();
+    	$('#deathStar').draggable({ scroll: false });
 
   });
 
